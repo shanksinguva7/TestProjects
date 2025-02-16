@@ -23,7 +23,7 @@ public class Compound_Interest_Calculator {
         years = sc.nextInt();
 
         amount = principle+ Math.pow(1+ rate/timesCompoinded, years*timesCompoinded);
-        System.out.printf("the amount that you will pay is %.2f",amount);
+        System.out.printf("the amount will be %.2f",amount);
 
 
 
